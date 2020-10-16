@@ -1,0 +1,6 @@
+framework module RouterSubApp {
+  umbrella header "RouterSubApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

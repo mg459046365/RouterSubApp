@@ -1,0 +1,27 @@
+PODS:
+  - RouterMediator (1.0.1)
+  - RouterSubApp (0.1.0):
+    - RouterMediator (~> 1.0.1)
+
+DEPENDENCIES:
+  - RouterMediator (from `https://github.com/mg459046365/RouterMediator`)
+  - RouterSubApp (from `../`)
+
+EXTERNAL SOURCES:
+  RouterMediator:
+    :git: https://github.com/mg459046365/RouterMediator
+  RouterSubApp:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  RouterMediator:
+    :commit: f5d6ce6e2658c5ed15f6672145aa713892ed38ea
+    :git: https://github.com/mg459046365/RouterMediator
+
+SPEC CHECKSUMS:
+  RouterMediator: 0976a1353291fd4d746c49cf505fc8c8dbddc2f0
+  RouterSubApp: 12d1c0314f582a29155674ec1923c949ff99ef93
+
+PODFILE CHECKSUM: a481e6469d166e64024b4de2e1c4624a939811b1
+
+COCOAPODS: 1.9.3

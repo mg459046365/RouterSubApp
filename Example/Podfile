@@ -1,0 +1,10 @@
+use_frameworks!
+
+target 'RouterSubApp_Example' do
+  pod 'RouterSubApp', :path => '../'
+  pod 'RouterMediator', :git => 'https://github.com/mg459046365/RouterMediator'
+  target 'RouterSubApp_Tests' do
+    inherit! :search_paths
+    
+  end
+end
